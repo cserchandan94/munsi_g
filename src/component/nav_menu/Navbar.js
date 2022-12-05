@@ -1,6 +1,6 @@
 import React from 'react';
-import ContainerComponent from '../../utils/ContainerComponent';
-import AddCategory from '../category/AddCategory';
+// import ContainerComponent from '../../utils/ContainerComponent';
+// import AddCategory from '../category/AddCategory';
 import {
     Nav,
     NavLink,
@@ -39,7 +39,6 @@ const Navbar =()=>{
           <NavBtnLink to='/sign-up' activeStyle> Sign Up</NavBtnLink>
         </NavBtn>
         </Nav>
-        <AddCategory/>
       </div>
        
         </>

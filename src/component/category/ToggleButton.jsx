@@ -16,11 +16,13 @@ const ToggleButton =(props)=>{
        {
         body={
           "category_id":category_id,
+          "is_category_type":is_category_type,
           "status": status==1 ? 0 : 1
         }
        }else{
         body={
           "subCategoryId":subCategoryId,
+          "is_category_type":is_category_type,
           "status": status==1 ? 0 : 1
         }
        }
